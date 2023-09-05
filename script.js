@@ -98,8 +98,8 @@ const maiorAndMaior = (array) => {
     }
   }
 
-  console.log(menorNumero)
-  console.log(maiorNumero)
+  console.log(`Número menor: ${menorNumero}`)
+  console.log(`Número maior: ${maiorNumero}`)
   }
 }
 maiorAndMaior(arrayOriginal)
