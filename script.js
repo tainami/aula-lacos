@@ -84,7 +84,7 @@ const criaArrayStrings = (arrayReferencia) => {
 criaArrayStrings(arrayOriginal)
 
 // e) 
-const maiorAndMaior = (array) => {
+const maiorAndMenor = (array) => {
   let maiorNumero = 0
   for(numero of array) {
     if(numero > maiorNumero) {
@@ -102,6 +102,6 @@ const maiorAndMaior = (array) => {
   console.log(`Número maior: ${maiorNumero}`)
   }
 }
-maiorAndMaior(arrayOriginal)
+maiorAndMenor(arrayOriginal)
 
 
